@@ -11,4 +11,3 @@ Let’s take a closer look at the steps of the Euclidean algorithm:
 3. If r is equal to 0, then the GCD of a and b is b. Otherwise, set a to b and b to r, and go back to step 2.
 
 The Euclidean algorithm has a time complexity of O(log N), where **N is the larger of the two input integers**. This is because, in each iteration of the algorithm, the size of the inputs is reduced by a factor of at least 2, which means that the number of iterations required is proportional to log N.
-# gcd-euclidean-algorithm
